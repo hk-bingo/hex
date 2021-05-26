@@ -1,0 +1,131 @@
+
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.font_roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font_noto {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font: normal normal normal 80px/94px Roboto;
+    text-align: left;
+    border-bottom: 2px solid #000;
+    margin-top: 47px;
+    padding-bottom: 17px;
+    margin-bottom: 48px;
+}
+
+.profile_pic {
+    width: 324px;
+}
+
+.profile_content h2,
+.full_width h2 {
+    font: normal normal normal 32px/43px Noto Sans TC;
+    border-bottom: 1px solid #000;
+    padding: 8px 0;
+    margin-bottom: 16px;
+}
+
+.profile_content h2 span,
+.full_width h2 span {
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 16px;
+    line-height: 32px;
+}
+
+.profile_content span.red {
+    color: #A00404;
+}
+
+.profile_content p,
+.full_width p {
+    font: normal normal normal 24px/36px Noto Sans TC;
+    margin: 0 0 24px;
+}
+
+.full_width {
+    padding: 24px 0 36px;
+    background-color: #415165;
+    color: #fff;
+}
+
+.full_width h2 {
+    border-bottom: 1px solid #fff;
+    width: 996px;
+    max-width: 100%;
+    padding-bottom: 8px;
+    margin: 24px auto 40px;
+    text-align: center;
+}
+
+.full_width ul {
+    padding: 0;
+    border-left: 1px solid #fff;
+    margin: 0 auto;
+    width: fit-content;
+    list-style: none;
+}
+
+.full_width ul li {
+    padding-left: 20px;
+    font: normal normal normal 24px/36px Noto Sans TC;
+    margin-bottom: 20px;
+}
+
+.workbox {
+    margin-left: 24px;
+    padding-left: 24px;
+    border-left: 1px solid #96A9C4;
+}
+
+.profile_content .workbox img {
+    margin: 8px 0;
+}
+
+p.small {
+    font: normal normal normal 20px/30px Noto Sans TC;
+}
+
+.skills {
+    margin: 72px 0;
+}
+
+.contact {
+    margin-top: 72px;
+}
+
+.contact p {
+    text-align: center;
+    font: normal normal 300 24px/36px Roboto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex img {
+    margin-left: 24px;
+}
+
+.flex img:first-child {
+    margin-left: 0;
+}
